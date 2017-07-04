@@ -1,0 +1,36 @@
+ext {
+    supportLibraryVersion = '25.3.1'
+    junitVersion = '4.12'
+    rxjavaVersion = '1.2.10'
+    rxandroidVersion = '1.2.1'
+    gsonVersion = '2.7'
+    constraintVersion = '1.0.2'
+    converterGsonVersion = '2.2.0'
+    adapteRxjavaVersion = '2.2.0'
+    retrofitVersion = '2.2.0'
+    okhttpVersion = '3.7.0'
+    okioVersion = '1.12.0'
+    loggingInterceptorVersion = '3.7.0'
+    android = [
+            compileSdkVersion: 25,
+            minSdkVersion    : 15,
+            argetSdkVersion  : 25,
+            targetSdkVersion : 25,
+            buildToolsVersion: "25.0.2"
+    ]
+    dependencies = [
+            "appcompat-v7": "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            "rxjava"      : "io.reactivex:rxjava:${rxjavaVersion}",
+            "rxandroid"   : "io.reactivex:rxandroid:${rxandroidVersion}",
+            "junit"       : "junit:junit:${junitVersion}",
+            "gson"        : "com.google.code.gson:gson:${gsonVersion}",
+            "constraint"        : "com.android.support.constraint:constraint-layout:${constraintVersion}",
+            "converter-gson"        : "com.squareup.retrofit2:converter-gson:${converterGsonVersion}",
+            "adapter-rxjava"        : "com.squareup.retrofit2:adapter-rxjava:${adapteRxjavaVersion}",
+            "retrofit"        : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            "okhttp"        : "com.squareup.retrofit2:retrofit:${okhttpVersion}",
+            "okio"        : "com.squareup.okio:okio:${okioVersion}",
+            "okio"        : "com.squareup.okhttp3:logging-interceptor:${loggingInterceptorVersion}",
+            "recyclerview-v7"        : "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+    ]
+}
